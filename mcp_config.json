@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "storyboard-studio": {
+      "command": "python",
+      "args": ["server.py"],
+      "cwd": ".",
+      "env": {
+        "BLENDER_PATH": "blender",
+        "COMFYUI_URL": "http://127.0.0.1:8188",
+        "A1111_URL": "http://127.0.0.1:7860",
+        "OUTPUT_DIR": "./outputs",
+        "KNOWLEDGE_DB": "./storage/storyboard_knowledge.db",
+        "DEFAULT_RESOLUTION": "1920x1080",
+        "DEFAULT_CONTROLNET_WEIGHT": "0.8"
+      }
+    }
+  }
+}
